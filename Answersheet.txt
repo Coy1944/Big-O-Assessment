@@ -1,0 +1,38 @@
+// This is the first test for the extraLarge Array
+    Results for the extraLargeArray
+    insert 766.690667 ms
+    append 8.658791 ms        This is millisecond 
+
+    Results for the tinyArray
+    insert 27.458 μs
+    append 47.709 μs    This is microseconds
+
+    Results for the smallArray
+    insert 38.083 μs
+    append 64.25 μs
+
+    Results for the mediumArray
+    insert 285.416 μs
+    append 109.041 μs
+
+    Results for the largeArray
+    insert 6.154917 ms
+    append 412.417 μs
+
+    I did the extraLargeArray again because i was curious
+    Results for the extraLargeArray
+    insert 770.189333 ms
+    append 4.144 ms
+
+    1. When talkiing about Big O think of it as the complexity of the code in algebraic terms. So the more complex the code is or function, 
+        the longer it will take to run. So with each array in the given funtions, the bigger the array, the longer it will take to complete 
+        and run the code. The tiny array which was (10) was the fastest at 27.4 microseconds. As you can see the arrays get bigger with each
+        array. I did find it interesting that with the smaller arrays the funtion with the .push was a little slower. The .push in javascript
+        will add on or more elements to the end of the array and then return the new array, which will be a differnent lenght. 
+        However when the arrays get bigger the .unshift is slower. You can tell this by looking at the time it took for each funtion to take place.
+
+        2. EXTRA CREDIT. 
+        With the bigger arrays its pretty easy to think that the bigger array will take long to run. However when compared to the .push and the 
+        .unshift, with bigger functions and arrays .push is better and will be faster. The .unshift is slower because it adds the new item or 
+        this case a number, then shifts all the other numbers over. It does this each time the array is passed and this is the reason that the 
+        function with .unshift will take longer. 
