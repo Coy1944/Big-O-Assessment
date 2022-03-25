@@ -1,7 +1,7 @@
 // 1
 
 // Time = O(n^2) this has a nested loop. it will take longer becuase it has the nested loop and will have to times
-// Space = O(n^2)
+// Space = O(1) 
 
 let array = [28, 43, -12, 30, 4, 0, 12]
 
