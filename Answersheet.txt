@@ -35,4 +35,6 @@
         With the bigger arrays its pretty easy to think that the bigger array will take long to run. However when compared to the .push and the 
         .unshift, with bigger functions and arrays .push is better and will be faster. The .unshift is slower because it adds the new item or 
         this case a number, then shifts all the other numbers over. It does this each time the array is passed and this is the reason that the 
-        function with .unshift will take longer. 
+        function with .unshift will take longer. Indexing is a big part of the runtime of the function. With each new array the index has to reset
+        for an entire array, so as it gets bigger lets say to 100, then 100 operations have to bbe done after each pass and it will reset the idexes.
+        
